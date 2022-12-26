@@ -1,0 +1,32 @@
+body {
+  height: 100%;
+  width: 100%;
+  transition: 2s;
+}
+
+.body__true {
+  background-color: grey;
+}
+
+.body__false {
+  background-color: rgb(255, 255, 255);
+}
+
+.indicator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.indicator__true {
+  color: white;
+}
+
+.indicator__false {
+  color: black;
+}
