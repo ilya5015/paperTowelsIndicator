@@ -23,7 +23,7 @@ function setIndicatorFalse() {
 
 async function fetchIndicatorStatus() {
   const response = await fetch(
-    "https://blynk.cloud/external/api/get?token=MI6LRaI5RilMyNwDUj1DoXo_xJAo6xae&v0"
+    "https://blynk.cloud/external/api/get?token=BDZpzMAaBJRofZHVV8iqlk7KDREoiitn&v0"
   );
 
   if (!response.ok) {
