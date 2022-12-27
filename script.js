@@ -65,4 +65,4 @@ fetchIndicatorStatus();
 setInterval(() => {
   console.log("fetching");
   fetchIndicatorStatus();
-}, "5000");
+}, "3000");
