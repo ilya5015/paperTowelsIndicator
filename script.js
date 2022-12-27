@@ -1,4 +1,4 @@
-var audio = new Audio("./media/sound.mp3");
+
 
 function setIndicatorTrue() {
   document
@@ -23,7 +23,7 @@ function setIndicatorFalse() {
 
 async function fetchIndicatorStatus() {
   const response = await fetch(
-    "https://blynk.cloud/external/api/get?token=9qjQOJh7rdWm_rDgx7_w9sCQSe5X2nH0&v0"
+    "https://blynk.cloud/external/api/get?token=MI6LRaI5RilMyNwDUj1DoXo_xJAo6xae&v0"
   );
 
   if (!response.ok) {
